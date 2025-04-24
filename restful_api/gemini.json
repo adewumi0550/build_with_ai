@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Gemini API - All Data",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"prompt\": \"What are the latest advancements in renewable energy technologies?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/gemini/all",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "gemini",
+            "all"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Gemini API - Major Data",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"prompt\": \"Summarize the critical success factors for a startup in the e-commerce industry.\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/gemini/major",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "gemini",
+            "major"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
